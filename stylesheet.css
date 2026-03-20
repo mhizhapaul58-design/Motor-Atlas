@@ -1,0 +1,161 @@
+
+/* ===================== COLORS ===================== */
+:root {
+    --primary-color: #8B0000;       /* Crimson Red for headings and accents */
+    --background-color: #0F0F0F;    /* Black for body */
+    --section-bg: #1E1E1E;          /* Dark Gray for sections/cards */
+    --text-color: #E0E0E0;          /* Light Grey text */
+    --hover-color: #FF2B2B;         /* Brighter red for hover */
+}
+
+/* ===================== GLOBAL ===================== */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    line-height: 1.6;
+}
+
+/* ===================== HEADER ===================== */
+header {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: var(--background-color);
+}
+
+header h1 {
+    color: var(--primary-color);
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+header p {
+    color: #B0B0B0;
+    font-size: 16px;
+}
+
+/* ===================== NAVIGATION ===================== */
+.nav-bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 95%;
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 15px 0;
+    border-radius: 8px;
+
+    /* Background image of German flag */
+    background-image: url('images/german-flag.jpg'); /* Replace with your path */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.6);
+}
+
+.nav-bar ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap; /* Wrap items on smaller screens */
+    margin: 0;
+    padding: 0;
+}
+
+.nav-bar ul li a {
+    text-decoration: none;
+    color: var(--text-color);
+    font-weight: bold;
+    font-size: 1.1em;
+    padding: 8px 12px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+.nav-bar ul li a:hover {
+    color: var(--primary-color);
+    background-color: rgba(255, 0, 0, 0.1); /* subtle hover effect */
+}
+
+/* ===================== MAIN SECTIONS ===================== */
+main {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+section {
+    background-color: var(--section-bg);
+    padding: 4rem 2rem;
+    margin-bottom: 30px;
+    border-radius: 12px;
+    box-shadow: 0 6px 14px rgba(0, 0, 0, 0.6);
+}
+
+section h2 {
+    color: var(--primary-color);
+    margin-top: 0;
+}
+
+section h3 {
+    color: var(--text-color);
+    margin-top: 10px;
+}
+
+/* ===================== IMAGES ===================== */
+img {
+    max-width: 100%;
+    border-radius: 12px;
+    display: block;
+    margin: 20px auto;
+}
+
+/* ===================== LISTS ===================== */
+ul, ol {
+    padding-left: 20px;
+    margin-bottom: 10px;
+}
+
+ul li, ol li {
+    margin-bottom: 5px;
+}
+
+/* ===================== FOOTER ===================== */
+footer {
+    text-align: center;
+    background-color: var(--section-bg);
+    color: var(--text-color);
+    padding: 20px;
+    margin-top: 40px;
+    font-size: 0.9em;
+}
+
+/* ===================== RESPONSIVE ===================== */
+@media screen and (max-width: 768px) {
+    .nav-bar ul {
+        flex-direction: column;
+        gap: 15px; /* smaller spacing for stacked links */
+    }
+
+    section {
+        padding: 2rem 1rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    header h1 {
+        font-size: 2em;
+    }
+
+    .nav-bar {
+        padding: 10px 0;
+    }
+}
