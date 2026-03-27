@@ -78,13 +78,14 @@ Download the project folder
 
   https://github.com/
  
-  https://github.com/mhizhapaul58-design/-Paul-Motors-
+  
+https://github.com/mhizhapaul58-design/Motor-Atlas
 
 ## Links to the live pages
 
   https://github.com/
   
-https://github.com/mhizhapaul58-design/-Paul-Motors-
+https://github.com/mhizhapaul58-design/Motor-Atlas
 
 ## **Credits and Attributions**
 
