@@ -104,7 +104,7 @@ They support clean and semantic web development
 
 ### **Code generators**
 
-No code generators were used 
+ChatGPT (OpenAI) - used to assist with generating and improving code 
 
 
 
