@@ -1,4 +1,4 @@
-/* RESET */
+
 * {
     margin: 0;
     padding: 0;
@@ -14,7 +14,7 @@ body {
     line-height: 1.6;
 }
 
-/* NAVBAR (FLEXBOX 🔥) */
+/* NAVBAR (FLEXBOX ) */
 .nav-bar {
     display: flex;
     justify-content: space-between;
@@ -40,7 +40,7 @@ body {
 
 .nav-links a {
     text-decoration: none;
-    color: #ddd;
+    color: #711818;
     font-weight: 500;
     transition: 0.3s;
 }
@@ -76,7 +76,7 @@ main {
     padding: 0 20px;
 }
 
-/* SECTION CARDS 🔥 */
+/* SECTION CARDS  */
 section {
     background: #1a1a1a;
     margin-bottom: 30px;
