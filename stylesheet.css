@@ -14,24 +14,6 @@ body {
     line-height: 1.6;
 }
 
-/* NAVBAR (FLEXBOX ) */
-.nav-bar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 15px 30px;
-    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
-        url('germany-flag.jpg');
-    background-size: cover;
-    background-position: center;
-    border-bottom: 2px solid crimson;
-}
-
-.nav-bar h1 {
-    color: crimson;
-    font-size: 22px;
-}
-
 /* NAV LINKS */
 .nav-links {
     display: flex;
