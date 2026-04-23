@@ -82,7 +82,7 @@ Problem--> Solution
 
 2. Images don’t show -->Check the image path and filename spelling
 
-3. Navigation links broken -->	Ensure all <a href=""> paths are correct and match filenames
+3. Navigation links broken -->	Ensure all  paths are correct and match filenames
 
 4. Layout looks broken --->	Check CSS file link in <head> is correct (<link rel="stylesheet" href="style.css">)
 
